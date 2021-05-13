@@ -79,7 +79,9 @@ def normalize(line):
     return translated
 
 
-print(add_files_to_order(Path('/Users/Noname/Downloads')))
+if __name__ == '__main__':
+    print(add_files_to_order(Path('/Users/Noname/Downloads')))
+
 
 
        
